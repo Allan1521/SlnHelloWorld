@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PrjHelloWord</name>
+    </assembly>
+    <members>
+        <member name="P:Allan1521.PrjHelloWord.Models.Pessoa.Idade">
+            <summary>
+            Representa a idade de uma pessoa.
+            valores menores que 1 e maiores que 135 não são aceitos.
+            </summary>
+        </member>
+        <member name="M:Allan1521.PrjHelloWord.Models.Pessoa.#ctor(System.String,System.Int32)">
+            <summary>
+            Representa de uma pessoa
+            <param name="pNome">Representa o nome da pessoa. Valores nulos ou com menos de dois caracteres não são admitidos.</param>
+            <param name="pIdade">Representa a idade da pessoa. Valores menos que 1 e maiores que 135 não são admitidos</param>
+            </summary>
+        </member>
+        <member name="M:Allan1521.PrjHelloWord.Models.Pessoa.verificarMaioridade">
+            <summary>
+            Verifica a maioridade da pessoa
+            </summary>
+            <returns>Retorna se a pessoa é ou não maior de idade.</returns>
+        </member>
+        <member name="M:Allan1521.PrjHelloWord.Models.Pessoa.exibirMensagemMaioridade">
+             <summary>
+             Exibe uma mensagem informando se a pesssoa atingiu a maioridade.
+             </summary>
+             <returns>Retorna se a pessoa é ou não maior de idade  <Pessoa> é maior | menor de idade.</Pessoa></returns>
+            
+        </member>
+        <member name="M:Allan1521.PrjHelloWord.Models.Pessoa.exibirDadosPessoa">
+            <summary>
+            Eibe todos os dados da pessoa
+            </summary>
+            <returns>Retorna uma mensagem padronozada com dados da pessoa.</returns>
+        </member>
+        <member name="M:Allan1521.PrjHelloWord.Models.Pessoa.getIdadeFormatada">
+            <summary>
+            Retorna a idade formatada.
+            </summary>
+            <returns>Acrescenta a palavra anos à idade.</returns>
+        </member>
+        <member name="T:Allan1521.PrjHelloWord.Models.PessoaJuridica">
+            <summary>
+            Representa uma pessoa jurídica.
+            Herda da classe <see cref="T:Allan1521.PrjHelloWord.Models.Pessoa"/>.
+            </summary>
+        </member>
+        <member name="P:Allan1521.PrjHelloWord.Models.PessoaJuridica.Cnpj">
+            <summary>
+            Obtém ou define o CNPJ da pessoa jurídica.
+            Lança uma exceção se o CNPJ não tiver 15 caracteres.
+            </summary>
+            <exception cref="T:System.Exception">Lançada quando o CNPJ é inválido.</exception>
+        </member>
+        <member name="M:Allan1521.PrjHelloWord.Models.PessoaJuridica.#ctor(System.String,System.Int32,System.String)">
+            <summary>
+             Representação de uma pessoa juridica
+            </summary>
+            <param name="pNome">Representa o nome da pessoa jurídica. Valores nulos ou com menos de dois caracteres não são admitidos.</param>
+            <param name="pIdade">Representa a idade da pessoa jurídica. Valores menores que 1 e maiores que 135 não sao admitidos.</param>
+            <param name="pjCnpj">Representa o CNPJ da pessoa jurídica. Valores com quantidade de caracteres diferente de 14 não serão aceitos.</param>
+        </member>
+        <member name="T:Allan1521.PrjHelloWord.models.PessoaFisica">
+            <summary>
+            Representa uma pessoa física no sistema, contendo além de nome e idade, o cpf.
+            </summary>
+        </member>
+        <member name="P:Allan1521.PrjHelloWord.models.PessoaFisica.Cpf">
+            <summary>
+            Representa o cpf da pessoa física. Valores que não possuam 11 caracteres não serão aceitos.
+            </summary>
+        </member>
+        <member name="M:Allan1521.PrjHelloWord.models.PessoaFisica.#ctor(System.String,System.Int32,System.String)">
+            <summary>
+            Representação de uma pessoa física
+            </summary>
+            <param name="pNome">Representa o nome da pessoa física. Valores nulos ou com menos de dois caracteres não são admitidos</param>
+            <param name="pIdade">Representa a idade da pessoa física. Valores menores que 1 e maiores que 135 não sao admitidos.</param>
+            <param name="pCpf">Representa o número de cadastro da pessoa física. Valores com quantidade de caracteres diferente de 11 não serão aceitos</param>
+        </member>
+    </members>
+</doc>

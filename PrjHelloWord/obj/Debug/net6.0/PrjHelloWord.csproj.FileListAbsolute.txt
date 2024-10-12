@@ -1,0 +1,14 @@
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\bin\Debug\net6.0\PrjHelloWord.deps.json
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\bin\Debug\net6.0\PrjHelloWord.dll
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\bin\Debug\net6.0\PrjHelloWord.pdb
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\obj\Debug\net6.0\PrjHelloWord.csproj.AssemblyReference.cache
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\obj\Debug\net6.0\PrjHelloWord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\obj\Debug\net6.0\PrjHelloWord.AssemblyInfoInputs.cache
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\obj\Debug\net6.0\PrjHelloWord.AssemblyInfo.cs
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\obj\Debug\net6.0\PrjHelloWord.csproj.CoreCompileInputs.cache
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\obj\Debug\net6.0\PrjHelloWord.dll
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\obj\Debug\net6.0\refint\PrjHelloWord.dll
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\obj\Debug\net6.0\PrjHelloWord.pdb
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\obj\Debug\net6.0\ref\PrjHelloWord.dll
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\bin\Debug\net6.0\PrjHelloWord.xml
+C:\Users\allan.mlima1\source\repos\SinPrjHelloWord\PrjHelloWord\obj\Debug\net6.0\PrjHelloWord.xml
